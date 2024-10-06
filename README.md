@@ -82,7 +82,7 @@ This document provides instructions for setting up and running the provided Fast
      ```
 
 2. **Configure the Port (Optional):**
-   * If you want to run the application on a port other than the default (8000), you can modify the `settings.py` file. Change the value of `port` to your desired port number.
+   * If you want to run the application on a port other than the default (8000), you can modify the `config.py` file. Change the value of `port` to your desired port number.
 
 **Running the Application:**
 
@@ -122,7 +122,7 @@ http://localhost:8000
 
 **Note:**
 
-* This assumes the provided code includes a `settings.py` file and a `src` directory containing the `app.py` file. Adjust the commands accordingly if your project structure differs.
+* This assumes the provided code includes a `config.py` file and a `src` directory containing the `app.py` file. Adjust the commands accordingly if your project structure differs.
 * If you encounter any errors, check the logs for more information.
 * Remember to deactivate your virtual environment when you're done: `deactivate`
 
