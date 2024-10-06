@@ -1,0 +1,6 @@
+google-cloud-sdk
+.venv
+__pycache__
+contratos
+static
+.env
